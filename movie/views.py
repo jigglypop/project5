@@ -12,6 +12,13 @@ def index(request):
 def new(request):
     return render(request, 'new.html')
 
+def detail(request, movie_pk):
+    movie = Movie.objects.get(pk=movie_pk)
+    context = {
+        'movie': movie
+    }
+    return render(request, 'movie/detail.html', context)
+
 def create(request):
     # 저장 로직
     # 'title', 'title_en','audience', 'open_date', 'genre', 'watch_grade', 
@@ -25,7 +32,7 @@ def create(request):
     score = request.GET.get('score')
     poster_url = request.GET.get('poster_url')
     description = request.GET.get('description')
-    
+
     movie = Movie(
         title=title, 
         title_en=title_en,
