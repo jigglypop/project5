@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="spring.ChangePasswordService"/>
+<fullyQualifiedTypeName name="spring.MemberRegisterService"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="assembler.Assembler"/>
+<fullyQualifiedTypeName name="spring.RegisterRequest"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="spring.DuplicateMemberException"/>
+<fullyQualifiedTypeName name="spring.WrongIdPasswordException"/>
+</qualifiedTypeNameHistroy>

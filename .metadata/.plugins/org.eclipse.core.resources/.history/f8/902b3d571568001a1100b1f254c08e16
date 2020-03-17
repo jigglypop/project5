@@ -1,0 +1,18 @@
+package main;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import assembler.Assembler;
+import spring.ChangePasswordService;
+import spring.DuplicateMemberException;
+import spring.MemberNotFoundException;
+import spring.MemberRegisterService;
+import spring.WrongIdPasswordException;
+import spring.RegisterRequest;
+
+
+public class MainForAssembler {
+
+}
